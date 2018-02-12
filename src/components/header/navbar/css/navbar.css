@@ -1,0 +1,28 @@
+nav{
+    background-color: var(--navbar-bg);
+    padding: 10px;
+}
+nav a{
+    color: white;
+    transition: all .3s;
+}
+nav a:hover,nav a:focus{
+    color: white;
+}
+nav a.active{
+    background-color: var(--navbar-hov-color) !important;
+}
+nav #navbar-main a:hover{
+    background-color: var(--navbar-hov-color) !important;
+    color: white;
+}
+.navbar-brand{
+    padding: 0 5px 0 5px;
+}
+.navbar-brand img{
+    width: 50px;
+}
+.navbar-brand img,.navbar-brand span{
+    display: inline-block;
+    vertical-align: middle;
+}

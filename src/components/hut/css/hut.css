@@ -1,0 +1,37 @@
+.hut-image{
+    height: 250px;
+    overflow: hidden;
+}
+.hut-image img{
+    height: 100%;
+    transition: all .4s linear;
+}
+.hut-image img:hover{
+    transform: scale(1.1);
+}
+.hut-image:hover + .hutname-details{
+    opacity: 1;
+}
+.single-hut{
+    position: relative;
+    margin: 15px 0px;
+}
+.hutname-details{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    opacity: 0;
+    transition: all .4s;
+}
+.hutname-details:hover{
+    opacity: 1;
+}
+.hutname-details a{
+    color: white;
+    background-color: var(--navbar-bg);
+    padding: 5px;
+    border-radius: 6px 6px 0px 6px;
+}
+.hutname-details a:hover{
+    text-decoration: none;
+}
